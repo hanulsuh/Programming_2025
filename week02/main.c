@@ -1,15 +1,18 @@
 #include <stdio.h>
-#include <stdlib.h>
-
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
-	int a, b;
+	// 변수 선언
+	int a, b; 
 	
+	// 환영 메세지 출력
 	printf("Hello, Sookmyung Electronics!\n");
+	
+	// 변수에 값 초기화
 	a = 10;
 	b = 20;
 	
+	// 두 변수의 합 계산하여 출력
 	printf("%d + %d = %d\n", a, b, a+b);
+	
 	return 0;
 }

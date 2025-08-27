@@ -1,4 +1,5 @@
 /* 숫자를 입력받아 배열에 저장하고 그 결과와 평균을 출력하는 프로그램 */
+
 #include <stdio.h>
 
 int main(void) {

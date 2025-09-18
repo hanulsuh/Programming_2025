@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 int main(void) {
-	char c;
-	int i;
+	char input_char;
+	char next_char;
 	
-	printf("input a number : ");
-	scanf("%c", &c);
+	printf("enter a character : ");
+	scanf("%c", &input_char);
 	
-	i = c - '0';
+	next_char = input_char + 1;
 	
-	printf("The input number is %d\n", i);
-	
+	printf("the next character of %c (%i) is %c (%i)", input_char, input_char, next_char, next_char);
+		
 	return 0;
 }

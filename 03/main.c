@@ -12,7 +12,5 @@ int main(void) {
 	
 	printf("integer : %d, float : %f\n", input_int, input_float);
 	
-
-	
 	return 0;
 }

@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 int main(void) {
-	char input_char;
-	char next_char;
+	float ja, mo;
 	
-	printf("enter a character : ");
-	scanf("%c", &input_char);
+	printf("enter bunja : ");
+	scanf("%f", &ja);
 	
-	next_char = input_char + 1;
+	printf("enter bunmo : ");
+	scanf("%f", &mo);
 	
-	printf("the next character of %c (%i) is %c (%i)", input_char, input_char, next_char, next_char);
+	printf("the result is %f\n", (float)ja/mo);
 		
 	return 0;
 }

@@ -1,15 +1,18 @@
 #include <stdio.h>
 
 int main(void) {
-	float ja, mo;
+	int input_int;
+	float input_float;
 	
-	printf("enter bunja : ");
-	scanf("%f", &ja);
+	printf("enter an integer : ");
+	scanf("%d", &input_int);
 	
-	printf("enter bunmo : ");
-	scanf("%f", &mo);
+	printf("enter a float : ");
+	scanf("%f", &input_float);
 	
-	printf("the result is %f\n", (float)ja/mo);
-		
+	printf("integer : %d, float : %f\n", input_int, input_float);
+	
+
+	
 	return 0;
 }
